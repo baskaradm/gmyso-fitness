@@ -1,0 +1,49 @@
+/* Button */
+
+.btn {
+  cursor: pointer;
+  display: inline;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  display: inline;
+  padding: 15px 30px;
+  color: #f13a11;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 1rem;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  display: inline;
+  padding: 15px 30px;
+  color: #f13a11;
+  background-color: transparent;
+  border: 1px solid #f13a11;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 1rem;
+}
+
+.btn-secondary:hover {
+  cursor: pointer;
+  display: inline;
+  padding: 15px 30px;
+  color: #f13a11;
+  background-color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 1rem;
+}
