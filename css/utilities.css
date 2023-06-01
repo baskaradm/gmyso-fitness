@@ -13,39 +13,83 @@
 }
 
 .btn:hover {
-  cursor: pointer;
-  display: inline;
-  padding: 15px 30px;
-  color: #f13a11;
-  background-color: transparent;
-  border: none;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  font-size: 1rem;
   transition: all 0.3s;
+  color: #f13a11;
 }
 
 .btn-secondary {
-  cursor: pointer;
-  display: inline;
-  padding: 15px 30px;
   color: #f13a11;
-  background-color: transparent;
   border: 1px solid #f13a11;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  font-size: 1rem;
 }
 
 .btn-secondary:hover {
-  cursor: pointer;
-  display: inline;
-  padding: 15px 30px;
-  color: #f13a11;
   background-color: #fff;
   border: 1px solid #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  font-size: 1rem;
-  transition: all 0.3s;
+}
+
+.btn-third {
+  background-color: #f13a11;
+}
+
+.btn-third:hover {
+  background-color: #fff;
+}
+/* Backgrounds */
+.bg-primary {
+  background-color: #171819;
+  color: #fff;
+}
+
+/* Flex columns */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -4px;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.flex-columns p {
+  /* margin: 0 20px; */
+  font-size: 18px;
+  font-weight: 300;
+  color: #666262;
+  line-height: 1.5em;
 }
