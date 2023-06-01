@@ -67,7 +67,9 @@ img {
   text-transform: capitalize;
 }
 
-.navbar a:hover {
+.navbar ul a:hover,
+a:active,
+.navbar ul a.current {
   color: #f13a11;
 }
 
